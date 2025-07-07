@@ -1,0 +1,61 @@
+.html {
+  background-color: gray;
+  padding: 20px;
+  gap: 24px;
+  border-radius: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+.body {
+background-color: azure;
+color: #000;;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.card {
+  background-color: whitesmoke;
+  border-radius: 10%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 10 px rgba(red, green, blue, alpha);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+
+}
+
+.h2 {
+  color: orangered;
+  font-size: 18px;
+
+}
+
+.p {
+  color: black;
+  font-size: 15px;
+}
+
+.button {
+  background-color: orangered;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 2px;
+  align-self: flex-start;
+}
